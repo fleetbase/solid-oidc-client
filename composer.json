@@ -1,0 +1,22 @@
+{
+    "name": "fleetbase/solid-oidc-client",
+    "version": "1.0.0",
+    "description": "PHP OIDC client for CommunitySolidServer",
+    "type": "library",
+    "require": {
+        "firebase/php-jwt": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Fleetbase Pte Ltd",
+            "email": "hello@fleetbase.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SolidOidc\\": "src/SolidOidc/"
+        }
+    },
+    "minimum-stability": "stable"
+}
+
